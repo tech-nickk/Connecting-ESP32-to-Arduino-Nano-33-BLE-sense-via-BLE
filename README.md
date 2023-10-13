@@ -25,7 +25,7 @@ This repository provides documentation and code examples for connecting an ESP32
 7. [Contributing](#contributing)
 8. [License](#license)
 
-## Introduction
+
 
 ## Introduction
 
@@ -77,10 +77,17 @@ Connecting the ESP32 and Arduino Nano 33 BLE Sense to your PC is a straightforwa
    - Connect the other end of the USB cable to an available USB port on your PC.
    - The ESP32 can be used as a central device to establish a BLE connection.
 
+     ![ESP32](https://th.bing.com/th/id/R.ff13d1d38ad0d2bb2e0659e26d710838?rik=AwtgrGtpaAZPWw&pid=ImgRaw&r=0)
+
 2. **Arduino Nano 33 BLE Sense**:
    - Similarly, connect one end of a USB cable into the Arduino Nano 33 BLE Sense board.
    - Connect the other end of the USB cable to another available USB port on your PC.
    - The Arduino Nano 33 BLE Sense is configured as a peripheral device, ready to respond to connection requests.
+  
+    ![Nano 33 BLE Sense](https://circuitdigest.com/sites/default/files/inlineimages/u2/Arduino-Nano-33-BLE.jpg)
+  
+     credits : circuitdigest.com
+
 
 Once connected, both boards will be powered and ready for communication with your PC. You can proceed with software setup and code implementation for BLE communication.
 
