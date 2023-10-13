@@ -2,7 +2,8 @@
 This is simple guide on how to connect ESP32 as the client to Arduino Nano 33 BLE sense as the server (peripheral) via Bluetooth (BLE)
 
 
-# Connect ESP32 to Arduino Nano 33 BLE Sense via BLE
+
+
 
 ## Description
 
@@ -153,12 +154,7 @@ By following these installation instructions, you'll have the necessary software
 
 
 ```cpp
-/**
- * A BLE client example that is rich in capabilities.
- * There is a lot of new capabilities implemented.
- * Author: [Author Name]
- * Updated by: [Your Name]
- */
+
 
 #include "BLEDevice.h"
 
