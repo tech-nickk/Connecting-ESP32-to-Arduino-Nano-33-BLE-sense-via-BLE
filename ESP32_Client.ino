@@ -1,9 +1,4 @@
-/**
- * A BLE client example that is rich in capabilities.
- * There is a lot of new capabilities implemented.
- * Author: [Author Name]
- * Updated by: [Your Name]
- */
+
 
 #include "BLEDevice.h"
 
