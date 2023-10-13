@@ -84,7 +84,7 @@ bool connectToServer() {
     if (pRemoteCharacteristic->canRead()) {
       std::string value = pRemoteCharacteristic->readValue();
       if (value.length() == sizeof(uint8_t)) {
-        uint8_t receivedByte = value1[0];
+        uint8_t receivedByte = value[0];
 
         // Print the received byte as an integer
         Serial.print("The characteristic value was: ");
