@@ -247,6 +247,7 @@ bool connectToServer() {
 
     connected = true;
     return true;
+   }
 }
 
 /**
